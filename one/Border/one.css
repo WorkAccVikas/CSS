@@ -1,0 +1,67 @@
+hr{
+  color: red;
+  border-width: 5px;
+}
+p.dotted {
+  border-style: dotted;
+}
+p.dashed {
+  border-style: dashed;
+}
+p.solid {
+  border-style: solid;
+}
+p.double {
+  border-style: double;
+}
+p.groove {
+  border-style: groove;
+}
+p.ridge {
+  border-style: ridge;
+}
+p.inset {
+  border-style: inset;
+}
+p.outset {
+  border-style: outset;
+}
+p.none {
+  border-style: none;
+}
+p.hidden {
+  border-style: hidden;
+}
+p.mix {
+  border-style: dotted dashed solid double;
+}
+
+p.box1 {
+  border-top-style: groove;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: outset;
+}
+
+.container1{
+  text-align: center;
+}
+/* Four values */
+p.four {
+  border-style: dotted solid double dashed;
+}
+
+/* Three values */
+p.three {
+  border-style: dotted solid double;
+}
+
+/* Two values */
+p.two {
+  border-style: dotted solid;
+}
+
+/* One value */
+p.one {
+  border-style: dotted;
+}

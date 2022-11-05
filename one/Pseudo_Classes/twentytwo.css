@@ -1,0 +1,22 @@
+#video {
+  display: block;
+  width: 100%;
+  will-change: opacity;
+}
+
+#video:not([controls]):picture-in-picture {
+  opacity: 0;
+}
+
+#video-container {
+  background: linear-gradient(to bottom right, #888, #000);
+  position: relative;
+}
+
+#video-container::before {
+  bottom: 36px;
+  color: #ddd;
+  content: "Video is now playing in a Picture-in-Picture window";
+  position: absolute;
+  right: 36px;
+}

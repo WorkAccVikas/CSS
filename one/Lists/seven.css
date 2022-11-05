@@ -1,0 +1,3 @@
+ul {
+  list-style: square inside url("https://picsum.photos/20/30");
+}

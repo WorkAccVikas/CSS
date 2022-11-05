@@ -1,0 +1,28 @@
+.img1 {
+  float: right;
+}
+
+.img2 {
+  float: left;
+}
+
+.img3 {
+  float: none;
+}
+
+div {
+  float: left;
+  padding: 15px;
+}
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}

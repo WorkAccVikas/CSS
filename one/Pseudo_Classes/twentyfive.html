@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="twentyfive.css" />
+  </head>
+  <body>
+    <div class="d1">
+      <h1>The default Selector</h1>
+      <p>
+        The :default selector selects the default form element in a group of
+        related elements.
+      </p>
+      <p>The "male" radio button is checked by default:</p>
+
+      <form action="">
+        <input type="radio" name="gender" value="male" checked /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+        <input type="radio" name="gender" value="other" /> Other
+      </form>
+
+      <p>
+        The :default selector is not supported in Internet Explorer 11 and
+        earlier versions.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="d2">
+      <h1>The indeterminate Selector</h1>
+      <p>
+        The checkbox below is in an indeterminate state (by JavaScript). If you
+        click on it, it will change its state to "checked", and lose its red
+        shadow color, as it is no longer indeterminate.
+      </p>
+      <p>
+        Note that an indeterminate checkbox has a "-" icon, rather than a
+        checkmark or an empty box.
+      </p>
+
+      <input type="checkbox" id="myCheckbox" /> Checkbox
+    </div>
+
+    <hr />
+
+    <div class="d3">
+        <div class="blanks">
+        <p>This paragraph is not empty or blank.</p>
+        <p><!--this is empty and blank --></p>
+        <p>
+    
+        <!-- this is not empty, because it has whitespace. But it is blank.-->
+    
+        </p>
+        <p>This paragraph is not empty or blank.</p>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- In the following example, the red border and ❌ only display once the user has interacted with the field. Try typing something other than an email address to see it in action. -->
+    <div class="d4">
+        <h1>:user-invalid (:-moz-ui-invalid)</h1>
+        <form>
+            <label for="email">Email *: </label>
+            <input id="email" name="email" type="email" required>
+            <span></span>
+        </form>
+    </div>
+
+    <hr />
+
+    <div class="d5">
+        <div dir="ltr">
+            <h1>left-to-right</h1>
+            <p>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</p>
+            <cite>&mdash;Bill Watterson</cite>
+        </div>
+        <div dir="rtl">
+            <h1>right to left</h1>
+            <p>Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.</p>
+            <cite>&mdash;Bill Watterson</cite>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="d6">
+        <h1>:any-link</h1>
+        <div>
+        &lt;a> elements with...
+        <br><br>
+        <a href="https://google.com">valid href</a>
+        <br>
+        <a>no href</a>
+        <br>
+        <a href>href but no value</a>
+        <br>
+        <a href="">empty string href</a>
+</div>
+    </div>
+
+    <script>
+      // Make the checkbox indeterminate via JavaScript
+      var checkbox = document.getElementById("myCheckbox");
+      checkbox.indeterminate = true;
+    </script>
+  </body>
+</html>

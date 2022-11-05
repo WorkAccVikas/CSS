@@ -1,0 +1,18 @@
+input:checked {
+  height: 50px;
+  width: 50px;
+}
+
+option:checked {
+  height: 100px;
+  width: 100px;
+  background: red;
+}
+
+p:lang(it) { 
+  background: yellow;
+}
+
+p:lang(ab) { 
+  background: blue;
+}

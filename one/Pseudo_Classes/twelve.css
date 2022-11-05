@@ -1,0 +1,15 @@
+.d1 p:nth-last-child(2) {
+  background: red;
+}
+
+.d2 p:nth-last-child(odd) {
+  background: red;
+}
+
+.d2 p:nth-last-child(even) {
+  background: blue;
+}
+
+.d3 p:nth-last-child(3n+0) {
+  background: pink;
+}

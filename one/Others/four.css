@@ -1,0 +1,23 @@
+.d1 #myid {
+  background-color: blue;
+}
+
+.d1 .myclass {
+  background-color: gray;
+}
+
+.d1 p {
+  background-color: red;
+}
+
+.d2 #myid {
+  background-color: blue;
+}
+
+.d2 .myclass {
+  background-color: gray;
+}
+
+.d2 p {
+  background-color: red !important;
+}

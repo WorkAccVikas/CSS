@@ -1,0 +1,323 @@
+.d1 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes example1 {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.d2 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;
+}
+
+@keyframes example2 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.d3 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes example3 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.d4 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example4;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+
+@keyframes example4 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.d5 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example5;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+}
+
+@keyframes example5 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.d6 div {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+.d6 #div1 {
+  animation-timing-function: linear;
+}
+.d6 #div2 {
+  animation-timing-function: ease;
+}
+.d6 #div3 {
+  animation-timing-function: ease-in;
+}
+.d6 #div4 {
+  animation-timing-function: ease-out;
+}
+.d6 #div5 {
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+.d7 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example7;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example7 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+    background-color: blue;
+  }
+}
+
+.d8 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example8;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes example8 {
+  from {
+    top: 0px;
+    background-color: yellow;
+  }
+  to {
+    top: 200px;
+  }
+}
+
+.d9 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example9;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes example9 {
+  from {
+    top: 0px;
+    background-color: yellow;
+  }
+  to {
+    top: 200px;
+    background-color: blue;
+  }
+}
+
+.d10 div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example10;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example10 {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}

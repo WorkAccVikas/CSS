@@ -1,0 +1,34 @@
+.d2 img {
+  width: 200px;
+  height: 300px;
+}
+
+.d3 img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.d4 img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.d5 img {
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+}
+
+.d6 img {
+  width: 200px;
+  height: 300px;
+  object-fit: none;
+}
+
+.d7 img {
+  width: 200px;
+  height: 300px;
+  object-fit: scale-down;
+}

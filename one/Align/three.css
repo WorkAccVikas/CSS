@@ -1,0 +1,46 @@
+.center {
+  padding: 70px 0;
+  border: 3px solid green;
+}
+
+.center1 {
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.center2 {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+.center2 p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center3 { 
+  height: 200px;
+  position: relative;
+  border: 3px solid green; 
+}
+
+.center3 p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}

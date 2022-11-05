@@ -1,0 +1,27 @@
+a[target] {
+  background-color: yellow;
+}
+
+a[target="_blank"] {
+  background-color: red;
+}
+
+[title~="flower"] {
+  border: 5px solid yellow;
+}
+
+[class|="top"] {
+  background: aqua;
+}
+
+.d1 [class^="top"] {
+  background: pink;
+}
+
+.d2 [class$="test"] {
+  background: violet;
+}
+
+.d3 [class*="te"] {
+  background: blue;
+}

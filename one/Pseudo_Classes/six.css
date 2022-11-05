@@ -1,0 +1,12 @@
+p:first-of-type {
+  background: pink;
+}
+
+/* wrong way */
+.box1:first-of-type {
+  background: yellow;
+}
+
+p:last-of-type {
+  background: #ff0000;
+}

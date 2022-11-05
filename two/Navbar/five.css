@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: fixed;
+  /* navbar always top */
+  top: 0;
+  /* navbar always bottom */
+  /* bottom: 0; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 1px solid rgb(21, 170, 240);
+}
+
+li:last-child {
+  border-right: none;
+}

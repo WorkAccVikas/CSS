@@ -1,0 +1,154 @@
+.d1 .pagination {
+  display: inline-block;
+}
+
+.d1 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  /* add transition on hover */
+  transition: background-color 5s;
+}
+
+.d1 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+.d1 .pagination a:hover:not(.active) {
+  background-color: red;
+  border-radius: 5px;
+}
+
+.d2 .pagination {
+  display: inline-block;
+}
+
+.d2 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.d2 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.d2 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.d3 .pagination {
+  display: inline-block;
+}
+
+.d3 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+
+.d3 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.d3 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.d3 .pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.d3 .pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.d4 .pagination {
+  display: inline-block;
+}
+
+.d4 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.d4 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.d4 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.d5 .pagination {
+  display: inline-block;
+}
+
+.d5 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+.d5 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.d5 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.d6 .center {
+  text-align: center;
+}
+
+.d6 .pagination {
+  display: inline-block;
+}
+
+.d6 .pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.d6 .pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.d6 .pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

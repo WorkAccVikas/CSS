@@ -1,0 +1,26 @@
+/* background-color */
+.box1 {
+  background-color: red; /* RGB */
+}
+.box2 {
+  background-color: #ff6347; /* HEX */
+}
+.box3 {
+  background-color: hsl(113, 100%, 50%); /* HSL */
+}
+.box4 {
+  background-color: hsla(
+    0,
+    100%,
+    50%,
+    0.5
+  ); /* hsla(hue, saturation, lightness, alpha) */
+}
+.box5 {
+  background-color: rgba(255, 255, 128, 0.5); /* rgba */
+}
+.box6 {
+  background-color: green;
+  opacity: 0.5;     /*  add transparency to the background of an element */
+  color: black;
+}

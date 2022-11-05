@@ -1,0 +1,47 @@
+.d1 input:default {
+  box-shadow: 0 0 1px 1px red;
+}
+
+.d2 input:indeterminate {
+  box-shadow: 0 0 1px 1px red;
+}
+
+.d3 p {
+  min-height: 30px;
+  width: 250px;
+  background-color: lightblue;
+}
+
+.d3 p:blank {
+  display: none;
+}
+
+.d3 p:-moz-only-whitespace {
+  /* comment following property and see the output */
+  display: none;
+} /* Mozilla-only pseudo-class that works like :blank will */
+
+.d4 input:user-invalid {
+  border: 2px solid red;
+}
+
+.d4 input:user-invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+.d5 div:dir(ltr) {
+  background-color: #333;
+  color: #fff;
+}
+
+.d5 div:dir(rtl) {
+  background: red;
+  color: #fff;
+}
+
+:any-link {
+  color: red;
+  font-weight: 900;
+  text-decoration: none;
+}

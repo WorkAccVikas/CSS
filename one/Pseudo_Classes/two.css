@@ -1,0 +1,19 @@
+p:first-child {
+  color: blue;
+}
+
+p i:first-child {
+  color: aqua;
+}
+
+p:first-child i {
+  color: red;
+}
+
+li:first-child {
+  background: yellow;
+}
+
+.ul > :first-child {
+  background:pink;
+}

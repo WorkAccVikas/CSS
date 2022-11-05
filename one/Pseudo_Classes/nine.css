@@ -1,0 +1,15 @@
+.parent :last-child {
+  /* this will select all elements which are last child of .parent */
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.parent div:last-child {
+  /* this will select the last child of .parent only if it is a div*/
+  background: crimson;
+}
+
+.parent div.child-2:last-child {
+  /* this will select the last child of .parent only if it is a div and has the class child-2*/
+  color: aqua;
+}

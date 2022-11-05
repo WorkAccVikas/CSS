@@ -1,0 +1,49 @@
+.d1 .div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.d1 .div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.d2 .div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.d2 .div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.d3 .box1 {
+  width: 300px;
+  height: 100px;
+  border: 5px solid black;
+  box-sizing: content-box;
+}
+
+.d3 .div1 {
+  width: 300px;
+  height: 50px;
+  border: 3px dotted blue;
+  box-sizing: content-box;
+}
+
+.d3 .div2 {
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  border: 3px dotted red;
+  box-sizing: content-box;
+}

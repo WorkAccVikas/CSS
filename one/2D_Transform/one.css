@@ -1,0 +1,51 @@
+.d1 div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.d1 div:hover {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+  transform: translate(50px, 100px);
+  transition-duration: 5s;
+}
+
+.d2 div {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.d2 div:hover {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+  /* transform: translateX(50px); */
+  /* or */
+  translate: 50px 0;
+  transition-duration: 5s;
+}
+
+.d3 div {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+.d3 div:hover {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+  /* transform: translateY(100px); */       
+  /* or */
+  translate: 0 100px;
+  transition-duration: 5s;
+}

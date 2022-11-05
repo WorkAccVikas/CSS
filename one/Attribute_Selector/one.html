@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="one.css" />
+  </head>
+  <body>
+    <h2>CSS [attribute] & [attribute="value"] Selector</h2>
+    <p>The links with a target attribute gets a yellow background:</p>
+
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <a href="http://www.disney.com" target="_blank">youtube.com</a>
+    <a href="http://www.wikipedia.org" target="_top">amazon.com</a>
+
+    <hr />
+
+    <h2>CSS [attribute~="value"] Selector</h2>
+    <p>
+      All images with the title attribute containing the word "flower" get a
+      yellow border.
+    </p>
+
+    <img
+      src="https://randomwordgenerator.com/img/picture-generator/54e5d2434953a514f1dc8460962e33791c3ad6e04e507440742f7cd09645cc_640.jpg"
+      title="klematis flower"
+      width="150"
+      height="113"
+    />
+    <img
+      src="https://randomwordgenerator.com/img/picture-generator/54e5d2434953a514f1dc8460962e33791c3ad6e04e507440742f7cd09645cc_640.jpg"
+      title="flower"
+      width="224"
+      height="162"
+    />
+    <img
+      src="https://randomwordgenerator.com/img/picture-generator/54e5d2434953a514f1dc8460962e33791c3ad6e04e507440742f7cd09645cc_640.jpg"
+      title="tree"
+      width="200"
+      height="358"
+    />
+
+    <hr />
+
+    <h2>CSS [attribute|="value"] Selector</h2>
+
+    <h1 class="top-header">Welcome</h1>
+    <p class="top-text">Hello world!</p>
+    <p class="topcontent">Are you learning CSS?</p>
+
+    <hr />
+
+    <div class="d1">
+      <h2>CSS [attribute^="value"] Selector</h2>
+
+      <h1 class="top-header">Welcome</h1>
+      <p class="top-text">Hello world!</p>
+      <p class="topcontent">Are you learning CSS?</p>
+      <p class="s">Hello</p>
+    </div>
+
+    <hr />
+
+    <div class="d2">
+      <h2>CSS [attribute$="value"] Selector</h2>
+
+      <div class="first_test">The first div element.</div>
+      <div class="second">The second div element.</div>
+      <div class="my-test">The third div element.</div>
+      <p class="mytest">This is some text in a paragraph.</p>
+    </div>
+
+    <hr />
+
+    <div class="d3">
+      <h2>CSS [attribute*="value"] Selector</h2>
+
+      <div class="first_test">The first div element.</div>
+      <div class="second">The second div element.</div>
+      <div class="my-test">The third div element.</div>
+      <p class="mytest">This is some text in a paragraph.</p>
+      <p class="te1">Hello</p>
+    </div>
+  </body>
+</html>

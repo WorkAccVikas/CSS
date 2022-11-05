@@ -1,0 +1,7 @@
+body {
+  background-image: url("bc.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: scroll; */
+  /* background-attachment: fixed; */
+  background-attachment: local;
+}

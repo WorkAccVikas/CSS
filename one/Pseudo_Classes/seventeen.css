@@ -1,0 +1,7 @@
+input:optional {
+  background-color: yellow;
+}
+
+input:required{
+    background-color: rgb(44, 196, 30);
+}

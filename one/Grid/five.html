@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="five.css" />
+  </head>
+  <body>
+    <div class="d1">
+      <h1>The grid-auto-rows Property</h1>
+
+      <p>
+        Use the <em>grid-auto-rows</em> property to set a default size (height)
+        for all rows.
+      </p>
+      <p>Set the size to 150 pixels per row:</p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+
+      <p>
+        <strong>Note:</strong> The grid-template-rows property overrides this
+        property.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="d2">
+      <h1>The grid-auto-columns Property</h1>
+      <p>
+        Use the <em>grid-auto-columns</em> property to set a default size
+        (width) for all columns.
+      </p>
+      <p>Set the size to 50 pixels per column:</p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+
+      <p>
+        <strong>Note:</strong> The grid-template-columns property overrides this
+        property.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="d3">
+      <h1>The grid-auto-flow Property</h1>
+
+      <p>
+        The <em>grid-auto-flow</em> property controls how auto-placed items are
+        inserted in the grid.
+      </p>
+      <p>This grid has three columns and two rows.</p>
+
+      <h2>grid-auto-flow: column</h2>
+      <p>Insert items column by column:</p>
+      <div class="grid-container" style="grid-auto-flow: column">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+      </div>
+
+      <h2>grid-auto-flow: row</h2>
+      <p>Insert items row by row:</p>
+      <div class="grid-container" style="grid-auto-flow: row">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+      </div>
+
+      <h2>grid-auto-flow: dense</h2>
+      <p>Insert items dense by dense:</p>
+      <div class="grid-container" style="grid-auto-flow: dense">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+      </div>
+
+      <h2>grid-auto-flow: row dense</h2>
+      <p>Insert items row dense by row dense:</p>
+      <div class="grid-container" style="grid-auto-flow: row dense">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+      </div>
+
+      <h2>grid-auto-flow: column dense</h2>
+      <p>Insert items column dense by column dense:</p>
+      <div class="grid-container" style="grid-auto-flow: column dense">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d4">
+      <h1>The grid-template Property</h1>
+
+      <p>
+        The grid-template property can be used as a shorthand property for the
+        <em>grid-template-rows</em> and the
+        <em>grid-template-columns</em> properties.
+      </p>
+      <p>
+        This grid layout has three columns, and the first row is 150px high:
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d5">
+      <h1>The grid Property</h1>
+
+      <p>The grid is a shorthand property for all grid container properties.</p>
+
+      <p>
+        This grid layout has three columns, and the first row is 150px high:
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+    </div>
+  </body>
+</html>

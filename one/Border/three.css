@@ -1,0 +1,77 @@
+p.one {
+  border-style: solid;
+  border-color: red;
+}
+
+p.two {
+  border-style: solid;
+  border-color: rgb(71, 178, 71);
+}
+
+p.three {
+  border-style: dotted;
+  border-color: blue;
+}
+
+p.four {
+  border-style: solid;
+  border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+
+.container1 {
+  text-align: center;
+}
+
+.container1 > p.one1 {
+  margin-top: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-top-color: rgb(7, 148, 214);
+}
+
+.container1 > p.two1 {
+  border-width: 4px;
+  border-style: solid;
+  border-right-color: rgb(202, 35, 180);
+}
+
+.container1 > p.three1 {
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-color: rgb(12, 214, 96);
+}
+
+.container1 > p.four1 {
+  border-width: 4px;
+  border-style: solid;
+  border-left-color: rgb(74, 18, 205);
+}
+
+
+.five {
+  border-width: 4px;
+  border-style: solid;
+  border-block-start-color: red;
+  writing-mode: horizontal-tb;
+}
+
+.six {
+  border-width: 4px;
+  border-style: solid;
+  border-block-start-color: #32a1ce;
+  writing-mode: vertical-rl;
+}
+
+.seven {
+  border-width: 4px;
+  border-style: solid;
+  border-block-start-color: rgb(170, 50, 220, 0.6);
+  writing-mode: horizontal-tb;
+}
+
+.eight {
+  border-width: 4px;
+  border-style: solid;
+  border-block-start-color: hsl(60, 90%, 50%, 0.8);
+  writing-mode: sideways-lr;
+}

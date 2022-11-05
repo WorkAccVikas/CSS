@@ -1,0 +1,19 @@
+.d0 p {
+  outline-offset: 12px;
+  outline: 5px dashed blue;
+  border: 1px solid red;
+}
+
+.d1 div.ex1 {
+  margin: 20px;
+  border: 1px solid black;
+  outline: 4px solid red;
+  outline-offset: 15px;
+} 
+
+.d1 div.ex2 {
+  margin: 10px;
+  border: 1px solid black;
+  outline: 5px dashed blue;
+  outline-offset: 5px;
+} 

@@ -1,0 +1,31 @@
+.box1 {
+  text-indent: 50px;
+}
+
+.box2 {
+  letter-spacing: 10px;
+}
+
+.box3 {
+  letter-spacing: -2px;
+}
+
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+.three{
+    white-space: nowrap;
+}

@@ -1,0 +1,77 @@
+.d1 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+
+.d1 div:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.d2 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+.d2 #div1 {
+  transition-timing-function: linear;
+}
+.d2 #div2 {
+  transition-timing-function: ease;
+}
+.d2 #div3 {
+  transition-timing-function: ease-in;
+}
+.d2 #div4 {
+  transition-timing-function: ease-out;
+}
+.d2 #div5 {
+  transition-timing-function: ease-in-out;
+}
+
+.d2 div:hover {
+  width: 300px;
+}
+
+.d3 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.d3 div:hover {
+  width: 300px;
+}
+
+.d4 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.d4 div:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+.d5 div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.d5 div:hover {
+  width: 300px;
+}

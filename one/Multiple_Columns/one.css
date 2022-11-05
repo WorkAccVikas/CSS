@@ -1,0 +1,51 @@
+.d1 .newspaper {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.d2 .newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: red;
+  /* shorthand */
+  /* column-rule: 1px solid lightblue; */
+}
+
+.d3 .newspaper {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
+
+.d3 h2 {
+  column-span: all;
+  /* or */
+  /* column-span: none; */
+}
+
+.d4 .newspaper {
+  column-width: 100px;
+}
+
+.d5 div {
+  column-count: 3;
+  height: 100px;
+}
+
+.d5 .newspaper1 {
+  column-fill: auto;
+}
+
+.d5 .newspaper2 {
+  column-fill: balance;
+}
+
+.d6 .newspaper1 {
+  columns: 100px 3;
+}
+
+.d6 .newspaper2 {
+  columns: 50px 4;
+}

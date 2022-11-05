@@ -1,0 +1,67 @@
+.wrapper {
+  background: black;
+  text-align: center;
+  width: 360px;
+  height: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+  color: blanchedalmond;
+}
+.image-nav-button {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 1em;
+}
+.next {
+  float: right;
+}
+.prev {
+  float: left;
+}
+
+.image-nav-button:focus {
+  outline: none;
+  /* Try uncommenting below, then clicking the buttons */
+  /* outline: 3px solid red; */
+}
+.image-nav-button:focus-visible {
+  outline: 3px solid blanchedalmond;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+input:focus-visible {
+  outline: 2px solid crimson;
+  border-radius: 3px;
+}
+
+select:focus-visible {
+  border: 2px dashed crimson;
+  border-radius: 3px;
+  outline: none;
+}
+
+.d1 .demo-form {
+  background-color: #bdc3c7;
+  padding: 20px;
+}
+
+.d1 .demo-form:focus-within {
+  background-color: #f1c40f;
+}
+
+.d1 .demo-form input[type="text"]:focus {
+  border: 1px solid #d35400;
+}
+
+.d2 .tooltip-2 {
+	display: none;
+}
+
+.d2 .form-container-2:focus-within .tooltip-2 {
+	display: block;
+}

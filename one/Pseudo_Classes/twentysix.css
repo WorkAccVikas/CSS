@@ -1,0 +1,21 @@
+.d1 a:local-link {
+  color: green;
+}
+
+.d2 article:target-within {
+  background-color: rgb(51, 10, 236);
+}
+
+/* Add a pseudo-element inside the target element */
+.d2 p:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: 0.25em;
+}
+
+/* Style italic elements within the target element */
+.d2 p:target i {
+  color: red;
+}
+

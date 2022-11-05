@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#three {
+  background-color: aqua;
+  margin-top: 5px;
+}
+
+#four {
+  background-color: blue;
+}

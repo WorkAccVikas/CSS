@@ -1,0 +1,44 @@
+/* The ::first-line pseudo-element is used to add a special style to the first line of a text.
+The following example formats the first line of the text in all <p> elements: */
+.d1 p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+/* The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
+The following example formats the first letter of the text in all <p> elements:  */
+.d2 p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+/* Multiple Pseudo-elements */
+.d3 p::first-letter {
+  color: rgb(23, 157, 194);
+  font-size: xx-large;
+}
+
+.d3 p::first-line {
+  color: #80be0e;
+  font-variant: small-caps;
+}
+
+.d4 h3::before {
+  content: url(https://picsum.photos/100/100);
+}
+
+.d4 h4::after {
+  content: url(https://picsum.photos/100/100);
+}
+
+/* only right way */
+::marker {
+  color: red;
+  font-size: 23px;
+}
+
+/* only right way */
+::selection {
+  color: red;
+  background: yellow;
+}

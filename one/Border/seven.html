@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border Image Repeat</title>
+    <link rel="stylesheet" href="seven.css" />
+  </head>
+  <body>
+    <h1>The border-image-repeat Property</h1>
+    <p>
+      The border-image-repeat property specifies whether the border image should
+      be repeated, rounded, spaced or stretched:
+    </p>
+
+    <h2>border-image-repeat: stretch (default):</h2>
+    <p id="borderimg1">Here, the image is stretched to fill the area.</p>
+
+    <h2>border-image-repeat: repeat:</h2>
+    <p id="borderimg2">
+      Here, the image is tiled to fill the area. Tiles are divided if necessary.
+    </p>
+
+    <h2>border-image-repeat: round:</h2>
+    <p id="borderimg3">
+      Here, the image is tiled to fill the area. The image is rescaled if
+      necessary, to avoid dividing tiles.
+    </p>
+
+    <h2>border-image-repeat: space:</h2>
+    <p id="borderimg4">
+      Here, the image is tiled to fill the area. Extra space is distributed
+      around the tiles if necessary.
+    </p>
+
+    <p>Here is the original image:</p>
+    <img src="one.jpg" />
+
+    <p>
+      <strong>Note:</strong> Internet Explorer 10, and earlier versions, do not
+      support the border-image-repeat property.
+    </p>
+  </body>
+</html>

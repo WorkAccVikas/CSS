@@ -1,0 +1,19 @@
+.d1 img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.d2 img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 80% 100%;
+}
+
+.d3 img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 15% 100%;
+}

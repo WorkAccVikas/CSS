@@ -1,0 +1,64 @@
+.table,
+.td,
+.th {
+  border: 1px solid black;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table1,
+.td1,
+.th1 {
+  border: 1px solid black;
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td1 {
+  text-align: center;
+}
+
+.table3,
+.td3,
+.th3 {
+  border: 1px solid black;
+}
+
+.table3 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td3 {
+  height: 50px;
+  vertical-align: bottom;
+}
+
+.table4,
+.td4,
+.th4 {
+  border: 1px solid black;
+}
+
+.table4 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td4 {
+  height: 50px;
+}
+
+.th3,
+.th4,
+.td3,
+.td4 {
+  height: 50px;
+}
+

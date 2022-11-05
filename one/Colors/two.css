@@ -1,0 +1,38 @@
+.d1 {
+  background-image: url("../Background/ab.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.d1 div.ex1 {
+  background-color: lightgreen;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.d1 div.ex2 {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.d2 {
+  color: blue;
+}
+
+.d2 div {
+  background-color: currentcolor;
+  padding: 15px;
+}
+
+.d2 div p {
+  color: white;
+}
+
+.d3 div {
+  border: 2px solid red;
+}
+
+.d3 span {
+  border: inherit;
+}

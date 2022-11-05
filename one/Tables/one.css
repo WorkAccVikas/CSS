@@ -1,0 +1,31 @@
+.table,
+.th,
+.td {
+  border: 1px solid;
+}
+
+.table1,
+.th1,
+.td1 {
+  border: 1px solid;
+}
+
+.table1 {
+  width: 100%;
+}
+
+.table2,
+.td2,
+.th2 {
+  border: 1px solid;
+}
+
+.table2 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table3 {
+  width: 100%;
+  border: 1px solid;
+}

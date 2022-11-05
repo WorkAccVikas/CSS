@@ -1,0 +1,18 @@
+.box1 {
+  display: inline;
+}
+
+.box2 {
+  display: block;
+}
+
+.box3 {
+  display: block;
+}
+
+h1.hidden {
+  display: none;
+}
+h1.hidden1 {
+  visibility: hidden;
+}

@@ -1,0 +1,16 @@
+.d1 p:nth-last-of-type(2) {
+  background: red;
+}
+
+.d2 p:nth-last-of-type(odd) {
+  background: red;
+}
+
+.d2 p:nth-last-of-type(even) {
+  background: blue;
+}
+
+.d3 p:nth-last-of-type(3n + 0) {
+  background: red;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="twentyeight.css" />
+  </head>
+  <body>
+    <h1>:focus-visible</h1>
+    <div class="wrapper">
+      <a href="#" tabindex="1" class="image-nav-button prev"
+        >&larr; Prev Image</a
+      >
+      <a href="#" tabindex="2" class="image-nav-button next"
+        >Next Image &rarr;</a
+      >
+    </div>
+    <p>
+      <small
+        ><a href="https://caniuse.com/#feat=css-focus-visible"
+          >See caniuse.com for more details &rarr;</a
+        ></small
+      >
+    </p>
+
+    <hr />
+
+    <form>
+      <p>Which flavor would you like to order?</p>
+      <label>Full Name: <input name="firstName" type="text" /></label>
+      <label
+        >Flavor:
+        <select name="flavor">
+          <option>Cherry</option>
+          <option>Green Tea</option>
+          <option>Moose Tracks</option>
+          <option>Mint Chip</option>
+        </select>
+      </label>
+    </form>
+
+    <hr />
+    <hr />
+
+    <div class="d1">
+      <h1>:focus-within</h1>
+      <form class="demo-form">
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Email" />
+      </form>
+    </div>
+
+    <hr />
+
+    <div class="d2">
+      <div class="form-container-2">
+        <input type="text" class="email-2" placeholder="Enter email" />
+        <div class="tooltip-2">* Must be a valid email</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.d1 main h1,
+.d1 main h2,
+.d1 main h3,
+.d1 main a {
+  color: #f06d06;
+}
+
+.d2 main :is(h1,h2,h3,a){
+    color: blue;
+}

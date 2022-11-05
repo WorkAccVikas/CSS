@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Items</title>
+    <link rel="stylesheet" href="four.css" />
+  </head>
+  <body>
+    <div class="d1">
+      <h1>The grid-area Property</h1>
+
+      <p>
+        You can use the <em>grid-area</em> property to specify where to place an
+        item.
+      </p>
+
+      <p>The syntax is:</p>
+      <p>
+        grid-row-start / grid-column-start / grid-row-end / grid-column-end.
+      </p>
+
+      <p>
+        Item8 will start on row-line 1 and column-line 2, and end on row-line 5
+        column-line 6:
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+        <div class="item13">13</div>
+        <div class="item14">14</div>
+        <div class="item15">15</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d2">
+      <h1>The grid-area Property</h1>
+
+      <p>You can use the <em>grid-area</em> property to name grid items.</p>
+
+      <p>
+        You can refer to the name when you set up the grid layout, by using the
+        <em>grid-template-areas</em> property on the grid container.
+      </p>
+
+      <p>
+        Item1, is called "myArea" and will take up the place of all five
+        columns:
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d3">
+      <h1>The grid-area Property</h1>
+
+      <p>You can use the <em>grid-area</em> property to name grid items.</p>
+
+      <p>
+        You can refer to the name when you set up the grid layout, by using the
+        <em>grid-template-areas</em> property on the grid container.
+      </p>
+
+      <p>
+        Item1, is called "myArea" and will take up the place of two columns (out
+        of five):
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d4">
+      <h1>The grid-area Property</h1>
+
+      <p>You can use the <em>grid-area</em> property to name grid items.</p>
+
+      <b>
+        To define two rows, define the column of the second row inside another
+        set of apostrophes:
+      </b>
+      <p>
+        You can refer to the name when you set up the grid layout, by using the
+        <em>grid-template-areas</em> property on the grid container.
+      </p>
+
+      <p>
+        Item1, is called "myArea" and will take up the place of two columns (out
+        of five), and will span two rows:
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d5">
+      <h1>The grid-area Property</h1>
+
+      <p>You can use the <em>grid-area</em> property to name grid items.</p>
+
+      <p>
+        You can refer to the name when you set up the grid layout, by using the
+        <em>grid-template-areas</em> property on the grid container.
+      </p>
+
+      <p>This grid layout contains six columns and three rows:</p>
+
+      <div class="grid-container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d6">
+      <h1>Sort the Items</h1>
+
+      <b
+        >The first item in the HTML code does not have to appear as the first
+        item in the grid. <br />The Grid Layout allows us to position the items
+        anywhere we like.
+      </b>
+      <p>
+        The grid items do not have to be displayed in the same order as they are
+        written in the HTML code.
+      </p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="d7">
+      <h1>Re-arange the Order on Small Devices</h1>
+
+      <p>Resize the window to 500 pixels see the effect.</p>
+
+      <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+      </div>
+    </div>
+  </body>
+</html>

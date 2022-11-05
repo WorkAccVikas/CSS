@@ -1,0 +1,196 @@
+.d1 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d1 .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.d2 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d2 .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.d3 .grid-container {
+  display: grid;
+  grid-template-columns: 80px 200px auto 30px;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d3 .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.d4 .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d4 .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.d5 .grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.d6 .grid-container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d7 .grid-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d8 .grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d9 .grid-container {
+  display: grid;
+  /* justify-content: flex-start; */
+  /* or */
+  justify-content: start;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d10 .grid-container {
+  display: grid;
+  /* justify-content: flex-end; */
+  /* or */
+  justify-content: end;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d11 .grid-container1 {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-container1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.d12 .grid-container1 {
+  display: grid;
+  height: 400px;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d13 .grid-container1 {
+  display: grid;
+  height: 400px;
+  align-content: space-around;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d14 .grid-container1 {
+  display: grid;
+  height: 400px;
+  align-content: space-between;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d15 .grid-container1 {
+  display: grid;
+  height: 400px;
+  /* align-content: flex-start; */
+  /* or */
+  align-content: start;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.d16 .grid-container1 {
+  display: grid;
+  height: 400px;
+  /* align-content: flex-end; */
+  /* or */
+  align-content: end;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #2196f3;
+  padding: 10px;
+}

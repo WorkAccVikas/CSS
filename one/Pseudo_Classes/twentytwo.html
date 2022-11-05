@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:picture-in-picture</title>
+    <link rel="stylesheet" href="twentytwo.css" />
+  </head>
+  <body>
+    <!-- work in chrome only -->
+    <!-- https://googlechrome.github.io/samples/picture-in-picture/css-pseudo-class -->
+    <div id="video-container">
+      <video
+        id="video"
+        autoplay
+        muted
+        loop
+        playsinline
+        src="https://storage.googleapis.com/media-session/caminandes/short.mp4"
+      ></video>
+    </div>
+    <button id="togglePipButton" style="padding: 10px; background: red">
+      Toggle Picture-in-Picture
+    </button>
+
+    <script>
+      togglePipButton.addEventListener("click", async function (event) {
+        togglePipButton.disabled = true;
+        try {
+          if (video !== document.pictureInPictureElement)
+            await video.requestPictureInPicture();
+          else await document.exitPictureInPicture();
+        } catch (error) {
+          log(`> Argh! ${error}`);
+        } finally {
+          togglePipButton.disabled = false;
+        }
+      });
+
+      /* Feature support */
+
+      if ("pictureInPictureEnabled" in document) {
+        // Set button ability depending on whether Picture-in-Picture can be used.
+        setPipButton();
+        video.addEventListener("loadedmetadata", setPipButton);
+        video.addEventListener("emptied", setPipButton);
+      } else {
+        // Hide button if Picture-in-Picture is not supported.
+        togglePipButton.hidden = true;
+      }
+
+      function setPipButton() {
+        togglePipButton.disabled =
+          video.readyState === 0 ||
+          !document.pictureInPictureEnabled ||
+          video.disablePictureInPicture;
+      }
+    </script>
+  </body>
+</html>

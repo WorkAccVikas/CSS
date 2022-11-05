@@ -1,0 +1,26 @@
+p:empty {
+  width: 100px;
+  height: 20px;
+  background: #ff0000;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+input[type="text"] {
+  width: 100px;
+  -webkit-transition: width 0.35s ease-in-out;
+  transition: width 0.35s ease-in-out;
+}
+input[type="text"]:focus {
+  width: 250px;
+}
+
+.d1 input:empty {
+  border: 5px solid pink;
+}
+
+.d1 input {
+  border: 1px solid black;
+}

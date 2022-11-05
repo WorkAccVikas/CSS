@@ -1,0 +1,14 @@
+body {
+  background-color: pink;
+}
+.box1 {
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid black;
+  background-image: url("fg.png");
+  background-repeat: no-repeat;
+
+  /* background-position: top right; */
+  /* background-position: center; */
+  background-position: 25% 75%;
+}

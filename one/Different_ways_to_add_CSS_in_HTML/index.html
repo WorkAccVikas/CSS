@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Different ways to add CSS in HTML</title>
+    <style>
+      #first {
+        background-color: red;
+      }
+      #second {
+        background-color: blue;
+      }
+      #four{
+        background-color: green;
+      }
+    </style>
+    <!-- 3. External css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1. <style> tag -->
+    <div id="first">first</div>
+    <div id="second">second</div>
+    <!-- 2. Inline css -->
+    <div style="background-color: green; height: 100px">Hello</div>
+    <!-- 3. External css -->
+    <div id="three">three</div>
+
+    <div id="four">four</div>
+  </body>
+</html>

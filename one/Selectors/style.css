@@ -1,0 +1,33 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  border: 2px solid black;
+}
+
+/* element selector */
+span {
+  background-color: red;
+}
+
+/* id selector */
+#box1 {
+  background-color: green;
+}
+
+/* class selector */
+.box2 {
+  background-color: blue;
+}
+
+/* group selector */
+p,
+h1 {
+    background-color: pink;
+}
+
+/* select all p that have class=first */
+p.first{
+    color: red;
+}

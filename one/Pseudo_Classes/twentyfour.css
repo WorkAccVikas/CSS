@@ -1,0 +1,12 @@
+input::placeholder {
+  color: red;
+}
+
+input:placeholder-shown {
+  border: 5px solid aqua;
+  background: yellow;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
