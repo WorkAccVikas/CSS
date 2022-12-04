@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting clamp property of heading */
+h1 {
+  font-size: clamp(2rem, 4vw, 4rem);
+  color: #eb4034;
+}
+
+/* Setting clamp property of box */
+.box {
+  width: clamp(150px, 50%, 400px);
+  height: 8rem;
+  background: #5f76e8;
+}
+
+.content {
+  background-color: white;
+  padding: 3em;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  border: 1px solid red;
+  width: 70%;
+}
+
+.title {
+  margin: 0 0 0.5em;
+  font-weight: 900;
+  color: orange;
+  line-height: 0.8;
+  /* not ideal */
+  /* font-size: 5vw; */
+  /* use this for responsive */
+  font-size: clamp(2rem, 5vw, 5rem);
+}
+
+p {
+  /* font-size: 1vw; */
+  font-size: clamp(1rem, 1.25vw, 1.25rem);
+}

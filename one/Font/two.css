@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
+h1 {
+  display: inline;
+}
+
+.d1 h1 {
+  font-size: 100px;
+}
+
+.d2 {
+  font-size: 20px;
+}
+
+.d2 h1 {
+  font-size: 2em;
+}
+
+.d3 h1 {
+  font-size: 4rem;
+}
+
+.d4 h1 {
+  font-size: 5vw;
+}
+
+.d5 h1 {
+  font-size: 5vh;
+}
+
+.d6 h1 {
+  font-size: 5em;
+}

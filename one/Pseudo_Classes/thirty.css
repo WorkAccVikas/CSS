@@ -1,0 +1,19 @@
+/* without :where */
+h3 {
+  background-color: red;
+}
+
+.box4 h1,
+.box4 h2,
+.box4 h3 {
+  background-color: aqua;
+}
+
+/* with :where */
+:where(h2) {
+  background-color: yellow;
+}
+
+.box3 :where(h1, h2, h3) {
+  background-color: pink;
+}

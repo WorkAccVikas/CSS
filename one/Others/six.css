@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* without max */
+.content {
+  background-color: white;
+  padding: 3em;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  border: 1px solid red;
+  width: 50%;
+  min-width: 500px;
+}
+
+/* with max */
+.content1 {
+  background-color: blue;
+  padding: 3em;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  border: 1px solid red;
+  width: max(500px, 50%);
+}
